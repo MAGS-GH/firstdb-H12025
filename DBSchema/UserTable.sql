@@ -1,7 +1,7 @@
 -- Postgres SQL
 
 -- Serial er en auto incrementing integer
-CREATE TABLE bilbasen_bruger (
+CREATE TABLE Alkohol_bruger (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
     email TEXT UNIQUE NOT NULL,

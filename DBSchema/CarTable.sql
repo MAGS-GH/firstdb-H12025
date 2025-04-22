@@ -1,4 +1,4 @@
-CREATE TABLE bilbasen_bil (
+CREATE TABLE alkohol_øl (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
     owner_id INTEGER NOT NULL,
