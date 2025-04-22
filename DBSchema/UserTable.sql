@@ -1,7 +1,7 @@
 -- Postgres SQL
 
--- Serial er en auto incrementing integer
-CREATE TABLE Alkohol_bruger (
+-- @block Serial er en auto incrementing integer
+CREATE TABLE bilbasen_user (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
     email TEXT UNIQUE NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE Alkohol_bruger (
 );
 
 
--- Erstat Serial med UUID
+-- @block Erstat Serial med UUID
 CREATE TABLE bilbasen_bruger (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     name TEXT NOT NULL,
